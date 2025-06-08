@@ -3,7 +3,9 @@
  */
 // core/engine/PricingContext.java
 package core.engine;
-
+/*PricingContext
+– Mban informacionin kontekstual (data/orari, metadata) për llogaritjen e çmimit.
+– Lejon plugin-at të marrin parametrat shtesë (p.sh. “peak hours”, “holiday flag”).*/
 import java.time.LocalDateTime;
 import java.util.Map;
 

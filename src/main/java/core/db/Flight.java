@@ -9,6 +9,10 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+/*Flight
+– Model POJO që përfaqëson një regjistër fluturimi.
+– Anotuara me @Entity, @Column, @Id për mapping në tabelën flights.*/
+
 @Getter
 @Setter
 @AllArgsConstructor

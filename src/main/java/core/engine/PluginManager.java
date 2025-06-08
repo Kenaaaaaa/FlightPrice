@@ -6,6 +6,8 @@ import plugins.api.Plugin;
 import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
+/*– Skanon folder-in /plugins, ngarkon JAR-at me URLClassLoader.
+– Gjen klasat e shënuara me @Plugin, krijon instance e i mban në listën strategies.*/
 
 public class PluginManager {
     private final Path pluginDir;

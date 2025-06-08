@@ -1,6 +1,7 @@
 // core/engine/PricingService.java
 package core.engine;
-
+/*Merret me rrjedhën kryesore të llogaritjes: merr një Flight dhe PricingContext,
+i kalon ato radhazi te secila PricingStrategy.apply(...) dhe rikthen çmimin final.*/
 import core.db.Flight;
 import plugins.api.PricingStrategy;
 import java.util.List;
